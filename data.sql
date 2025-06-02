@@ -58,3 +58,8 @@ CREATE TABLE cats_stat (
     whiskers_length_median numeric,
     whiskers_length_mode integer[]
 );
+
+CREATE TABLE students (    
+    name varchar,
+    age integer
+);

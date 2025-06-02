@@ -9,6 +9,6 @@ conn = psycopg2.connect(user=DB_CONFIG['user'],
 
 cur = conn.cursor()
 
-cur.execute("SELECT * FROM cats")
-records = cur.fetchall()                    
-print(records)    
+cur.execute("SELECT * FROM students")
+records = cur.fetchall()   
+print(records)

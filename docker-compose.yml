@@ -16,7 +16,7 @@ services:
 
   postgres:
     container_name: postgres
-    image: postgres:17.5-alpine
+    image: postgres:latest
     restart: always
     env_file: .env
     environment:
