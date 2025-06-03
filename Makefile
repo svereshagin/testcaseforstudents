@@ -51,3 +51,5 @@ help:
 	@echo "  test           Запустить тесты"
 	@echo "  docker inspect postgres | grep \"IPAddress\" find the IP of container change 'postgres' in example"
 
+install_packages:
+	pip install -r requirements.txt
